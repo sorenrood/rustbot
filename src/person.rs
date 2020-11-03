@@ -12,6 +12,6 @@ impl Person {
     }
 
     pub fn talk(&mut self) {
-        println!("Hi, my name is {}", self.name);
+        println!("Hi, my name is {} and I am {} years old.", self.name, self.age);
     }
 }
