@@ -22,7 +22,7 @@ fn main() {
     let mut steven: Person = Person::new(steven_name, steven_age, steven_gender);
     steven.talk();
 
-    let karsten_name: String = String::from("Steven");
+    let karsten_name: String = String::from("Karsten");
     let karsten_age: usize = 19;
     let karsten_gender: Gender = Gender::Male;
     let mut karsten: Person = Person::new(karsten_name, karsten_age, karsten_gender);
