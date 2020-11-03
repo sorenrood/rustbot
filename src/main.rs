@@ -13,4 +13,17 @@ fn main() {
     let ajay_gender: Gender = Gender::Male;
     let mut ajay: Person = Person::new(ajay_name, ajay_age, ajay_gender);
     ajay.talk();
+
+    let steven_name: String = String::from("Steven");
+    let steven_age: usize = 19;
+    let steven_gender: Gender = Gender::Male;
+    let mut ajay: Person = Person::new(steven_name, steven_age, steven_gender);
+    ajay.talk();
+
+    let karsten_name: String = String::from("Steven");
+    let karsten_age: usize = 19;
+    let karsten_gender: Gender = Gender::Male;
+    let mut karsten: Person = Person::new(karsten_name, karsten_age, karsten_gender);
+    karsten.talk();
+
 }
