@@ -1,3 +1,4 @@
+/// An enum that represents a very simple gender struct.
 #[derive(Debug)]
 pub enum Gender {
     Male,
