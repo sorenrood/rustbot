@@ -1,10 +1,10 @@
 mod person;
-use person::Person;
+use person::{Person, Gender};
 
 fn main() {
-    println!("We are going to construct a cool struct now");
     let name = String::from("Soren");
     let age: usize = 20;
-    let mut soren = Person::new(name, age);
+    let gender = Gender::Male;
+    let mut soren = Person::new(name, age, gender);
     soren.talk();
 }
