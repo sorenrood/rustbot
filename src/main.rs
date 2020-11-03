@@ -7,6 +7,5 @@ fn main() {
     let gender = Gender::Male;
     let mut soren = Person::new(name, age, gender);
 
-    
     soren.talk();
 }
