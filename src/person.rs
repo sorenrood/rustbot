@@ -5,6 +5,7 @@ pub enum Gender {
     Other,
 }
 
+/// A struct that represents a person.
 pub struct Person {
     name: String,
     age: usize,
@@ -12,6 +13,7 @@ pub struct Person {
 }
 
 impl Person {
+    /// Will return a person
     pub fn new(n: String, a: usize, g: Gender) -> Person {
         Person {
             name: n, 
@@ -20,6 +22,7 @@ impl Person {
         }
     }
 
+    /// Will print the name, age, and gender of a person
     pub fn talk(&mut self) {
         println!("Hi I'm {}! I am {} years old. I identify as a {:?}.", self.name, self.age, self.gender);
     }

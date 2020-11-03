@@ -6,5 +6,7 @@ fn main() {
     let age: usize = 20;
     let gender = Gender::Male;
     let mut soren = Person::new(name, age, gender);
+
+    
     soren.talk();
 }
