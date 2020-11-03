@@ -1,2 +1,2 @@
 # rustbot
-Some type of webscraping bot.
+To be written.
