@@ -1,5 +1,7 @@
 pub mod person;
+pub mod competition;
 use person::{Person, Gender};
+use competition::Competition;
 
 fn main() {
     let soren_name: String = String::from("Soren");
@@ -25,5 +27,4 @@ fn main() {
     let karsten_gender: Gender = Gender::Male;
     let mut karsten: Person = Person::new(karsten_name, karsten_age, karsten_gender);
     karsten.talk();
-
 }
