@@ -28,7 +28,7 @@ impl Competition {
                 }
             },
             None => {
-                println!("No people found");
+                println!("No people found.");
             },
         }
     }
