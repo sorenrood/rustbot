@@ -13,6 +13,6 @@ impl Competition {
 
     /// A function that will run the competition. 
     pub fn run(&mut self) {
-        // Start the competition
+        println!("Starting the competition.");
     }
 }
