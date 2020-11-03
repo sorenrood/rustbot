@@ -27,4 +27,7 @@ fn main() {
     let karsten_gender: Gender = Gender::Male;
     let mut karsten: Person = Person::new(karsten_name, karsten_age, karsten_gender);
     karsten.talk();
+
+    let mut competition = Competition::new();
+    competition.run();
 }
