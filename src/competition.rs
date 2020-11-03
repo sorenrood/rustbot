@@ -6,6 +6,7 @@ pub struct Competition {
 }
 
 impl Competition {
+    /// Will return a compettion struct.
     pub fn new() -> Competition {
         Competition { players: None }
     }
