@@ -37,5 +37,4 @@ fn main() {
     let mut competition = Competition::new();
     competition.add_people(list_of_people);
     competition.display_people();
-
 }
