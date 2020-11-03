@@ -8,9 +8,9 @@ pub enum Gender {
 
 /// A struct that represents a person.
 pub struct Person {
-    name: String,
-    age: usize,
-    gender: Gender,
+    pub name: String,
+    pub age: usize,
+    pub gender: Gender,
 }
 
 impl Person {

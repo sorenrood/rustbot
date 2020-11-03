@@ -19,8 +19,8 @@ fn main() {
     let steven_name: String = String::from("Steven");
     let steven_age: usize = 19;
     let steven_gender: Gender = Gender::Male;
-    let mut ajay: Person = Person::new(steven_name, steven_age, steven_gender);
-    ajay.talk();
+    let mut steven: Person = Person::new(steven_name, steven_age, steven_gender);
+    steven.talk();
 
     let karsten_name: String = String::from("Steven");
     let karsten_age: usize = 19;
@@ -28,6 +28,14 @@ fn main() {
     let mut karsten: Person = Person::new(karsten_name, karsten_age, karsten_gender);
     karsten.talk();
 
+    let mut list_of_people: Vec<Person> = Vec::new();
+    list_of_people.push(soren);
+    list_of_people.push(karsten);
+    list_of_people.push(ajay);
+    list_of_people.push(steven);
+
     let mut competition = Competition::new();
-    competition.run();
+    competition.add_people(list_of_people);
+    competition.display_people();
+
 }
