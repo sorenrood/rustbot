@@ -1,4 +1,4 @@
-mod person;
+pub mod person;
 use person::{Person, Gender};
 
 fn main() {
