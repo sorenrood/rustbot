@@ -16,10 +16,12 @@ impl Competition {
         println!("Starting the competition.");
     }
 
+    /// Use this method to add a list of people to the competition struct.
     pub fn add_people(&mut self, list_of_people: Vec<Person>) {
         self.people = Some(list_of_people);
     }
 
+    /// Use this method to print all of the people in our competition.
     pub fn display_people(&mut self) {
         match &self.people {
             Some(people) => {
